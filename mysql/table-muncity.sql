@@ -11,7 +11,7 @@ CREATE TABLE `muncity` (
   `description` varchar(255) NOT NULL,
   PRIMARY KEY (`muncity_id`),
   FOREIGN KEY (`province_id`) 
-	REFERENCES `province` (`province_id`) ON UPDATE CASCADE
+	REFERENCES `province` (`province_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- ------------------------------------

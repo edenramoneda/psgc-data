@@ -1,6 +1,7 @@
 CREATE OR REPLACE VIEW `psgc_view` AS
   SELECT b.`description` AS `barangay`,
          m.`description` AS `muncity`,
+         m.`district` AS `district`,
          p.`description` AS `province`,
          r.`description` AS `region`
   FROM `barangay` b

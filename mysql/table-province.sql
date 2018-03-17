@@ -10,7 +10,7 @@ CREATE TABLE `province` (
   `description` varchar(255) NOT NULL,
   PRIMARY KEY (`province_id`),
   FOREIGN KEY (`region_id`) 
-	REFERENCES `region` (`region_id`) ON UPDATE CASCADE
+	REFERENCES `region` (`region_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- ------------------------------------
