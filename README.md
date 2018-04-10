@@ -3,6 +3,7 @@
 Using the data from the PSGC, a mySQL dump has been created. This data is for Filipino Developers or anyone who is in need of the Philippine Geographic Data.
 
 The schema currently contains:
+
 1. 81 Province Records
 
 2. 145 City Records
@@ -18,6 +19,7 @@ The schema currently contains:
 The PSGC database as of 31 December 2017 can be accessed at [PSGC Publication DEC2017](resources/PSGC-Publication-DEC2017.xlsx) in excel format. For more information please visit their website [here](http://nap.psa.gov.ph/activestats/psgc/).
 
 The PSGC Classifies the geographical-political subdivisions of the country into 5 levels:
+
 1. Region
 
 2. Province
@@ -31,6 +33,7 @@ The PSGC Classifies the geographical-political subdivisions of the country into 
 ### Entity Relationship Diagram
 
 The **schema** contains four tables:
+
 1. Region
 
 2. Province
@@ -53,13 +56,16 @@ See the EERD File [here](resources/eerd.mwb).
 
 *Note: Replace the databaseName with your desired schema name*
 ```
-CREATE DATABASE  IF NOT EXISTS `databaseName`;
-USE `databaseName`;
+    CREATE DATABASE  IF NOT EXISTS `databaseName`;
+    USE `databaseName`;
 ```
 
-2. Execute the [table-region.sql](mysql/table-region.sql). 
-3. Execute the [table-province.sql](mysql/table-province.sql). 
-4. Execute the [table-muncity.sql](mysql/table-muncity.sql).  
+2. Execute the [table-region.sql](mysql/table-region.sql).
+
+3. Execute the [table-province.sql](mysql/table-province.sql).
+
+4. Execute the [table-muncity.sql](mysql/table-muncity.sql).
+
 5. Execute the [table-barangay.sql](mysql/table-barangay.sql).
 
 ### License
@@ -67,5 +73,5 @@ USE `databaseName`;
 PSGC-Data is [MIT Licensed](LICENSE.md).
 
 ### Acknowledgements
- 
+
 This repository is inspired by [clavearnel](https://github.com/clavearnel/philippines-region-province-citymun-brgy). The data used is from the [PSGC](http://nap.psa.gov.ph/activestats/psgc/).
