@@ -4,8 +4,11 @@ Using the data from the PSGC, a mySQL dump has been created. This data is for Fi
 
 The schema currently contains:
 1. 81 Province Records
+
 2. 145 City Records
+
 3. 1,489 Municipality Records
+
 4. 42,036 Barangay Records
 
 ### What is PSGC?
@@ -16,17 +19,24 @@ The PSGC database as of 31 December 2017 can be accessed at [PSGC Publication DE
 
 The PSGC Classifies the geographical-political subdivisions of the country into 5 levels:
 1. Region
+
 2. Province
+
 3. City
+
 4. Municipality
+
 5. Barangay
 
 ### Entity Relationship Diagram
 
 The **schema** contains four tables:
 1. Region
+
 2. Province
+
 3. MunCity - a mixture of City and Municipality
+
 4. Barangay
 
 The ```code``` column in the table stands for the **Philippine Standard Geographic Code**. While the ```district``` is the **[Legislative Districts](https://en.wikipedia.org/wiki/House_of_Representatives_of_the_Philippines#District_representation)**.
