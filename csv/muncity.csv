@@ -1,0 +1,26 @@
+muncity_id,province_id,district,code,description
+1,1,1st,012801000,Adams
+2,1,1st,012802000,Bacarra
+3,1,2nd,012803000,Badoc
+4,1,1st,012804000,Bangui
+5,1,1st,012805000,City Of Batac
+6,1,1st,012806000,Burgos
+7,1,1st,012807000,Carasi
+8,1,2nd,012808000,Currimao
+9,1,2nd,012809000,Dingras
+10,1,1st,012810000,Dumalneg
+11,1,2nd,012811000,Banna (Espiritu)
+12,1,1st,012812000,Laoag City (Capital)
+13,1,2nd,012813000,Marcos
+14,1,2nd,012814000,Nueva Era
+15,1,1st,012815000,Pagudpud
+16,1,1st,012816000,Paoay
+17,1,1st,012817000,Pasuquin
+18,1,1st,012818000,Piddig
+19,1,2nd,012819000,Pinili
+20,1,2nd,012820000,San Nicolas
+21,1,1st,012821000,Sarrat
+22,1,2nd,012822000,Solsona
+23,1,1st,012823000,Vintar
+24,2,,,
+25,2,,,
