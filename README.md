@@ -1,6 +1,6 @@
 # Philippine Standard Geography Code (PSGC) - Data
 
-Using the [data](http://www.nap.psa.gov.ph/csd/psgc1.asp) made public by the government, a mySQL, csv, and json file has been created which can be used by Developers who are in need of the Philippines Standard Geography Code (example of use case is for the Address).
+Using the data made public by the government, a mySQL, csv, and json file has been created which can be used by Developers who are in need of the Philippines Standard Geography Code (example of use case is for the Address).
 
 The data currently contains:
 
