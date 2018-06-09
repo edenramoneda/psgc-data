@@ -87,7 +87,7 @@ CREATE OR REPLACE VIEW `psgc_view` AS
 ```json
 {
   "region_id": Number,
-  "code": String,
+  "code": Number,
   "description": String
 }
 ```
@@ -98,7 +98,7 @@ CREATE OR REPLACE VIEW `psgc_view` AS
 {
   "province_id": Number,
   "region_id": Number,
-  "code": String,
+  "code": Number,
   "description": String
 }
 ```
@@ -110,7 +110,7 @@ CREATE OR REPLACE VIEW `psgc_view` AS
   "muncity_id": Number,
   "province_id": Number,
   "district": String,
-  "code": String,
+  "code": Number,
   "description": String
 }
 ```
@@ -121,7 +121,7 @@ CREATE OR REPLACE VIEW `psgc_view` AS
 {
   "barangay_id": Number,
   "muncity_id": Number,
-  "code": String,
+  "code": Number,
   "description": String
 }
 ```

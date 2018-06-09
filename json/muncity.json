@@ -982,7 +982,7 @@
   {
     "muncity_id": 141,
     "province_id": 2,
-    "district": "1t",
+    "district": "1st",
     "code": "021510000",
     "description": "Camalaniugan"
   },
@@ -4188,7 +4188,7 @@
   {
     "muncity_id": 599,
     "province_id": 5,
-    "district": 1,
+    "district": "1st",
     "code": "056211000",
     "description": "Magallanes"
   },
@@ -6596,7 +6596,7 @@
   {
     "muncity_id": 943,
     "province_id": 8,
-    "district": "2n",
+    "district": "2nd",
     "code": "084808000",
     "description": "Laoang"
   },
@@ -7975,7 +7975,7 @@
   {
     "muncity_id": 1140,
     "province_id": 10,
-    "district": "1t",
+    "district": "1st",
     "code": 104206000,
     "description": "Concepcion"
   },
